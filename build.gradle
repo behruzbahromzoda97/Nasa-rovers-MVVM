@@ -1,8 +1,17 @@
+/*
+ *
+ *  * Created by Behruz on 10/1/21, 2:48 PM
+ *  * Copyright (c) 2021 . All rights reserved.
+ *  * Last modified 10/1/21, 12:16 AM
+ *
+ */
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     repositories {
         google()
         mavenCentral()
+        maven { url "https://www.jitpack.io" }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.2"

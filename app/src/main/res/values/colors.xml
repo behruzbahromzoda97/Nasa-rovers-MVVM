@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~  * Created by Behruz on 10/1/21, 2:48 PM
+  ~  * Copyright (c) 2021 . All rights reserved.
+  ~  * Last modified 10/1/21, 12:12 AM
+  ~  */
+  -->
+
 <resources>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>

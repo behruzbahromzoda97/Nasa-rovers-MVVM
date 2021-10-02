@@ -1,3 +1,11 @@
+<!--
+  ~ /*
+  ~  * Created by Behruz on 10/1/21, 2:48 PM
+  ~  * Copyright (c) 2021 . All rights reserved.
+  ~  * Last modified 10/1/21, 12:12 AM
+  ~  */
+  -->
+
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.NasaApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
@@ -12,5 +20,13 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="SplashScreen" parent="Theme.NasaApp">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+
     </style>
 </resources>
