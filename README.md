@@ -16,7 +16,7 @@ The main advatage of using MVVM, there is no two way dependency between ViewMode
 
 # Screenshots
 <p align="center">
- mg src="/src/home.jpg" width="346" height="615" alt="Home"/> 
+<img src="/src/home.jpg" width="346" height="615" alt="Home"/> 
 <img src="/src/detail.jpg" width="346" height="615" alt="Home"/>
 </p>
 
